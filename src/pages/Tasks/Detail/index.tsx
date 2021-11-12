@@ -54,10 +54,10 @@ const Detail: React.FC = () => {
             <br />
             {task?.finished ? "Finalizado" : "Pendente"}
             <br />
-            <strong>Data de Cadastro: </strong>
+            <strong>Data de Atualização: </strong>
             {moment(task?.created_at).format('DD/MM/YYYY')}
             <br />
-            <strong>Data de Atualização: </strong>
+            <strong>Data de Cadastro: </strong>
             {moment(task?.updated_at).format('DD/MM/YYYY')}
           </Card.Text>
         </Card.Body>
